@@ -2,13 +2,21 @@
 
 A simple tool to graph key distribution from stdin
 
+### Installing ###
+
+Global install
+
+`pip install shellgraph`
+
+Local install
+
+`pip install --user shellgraph`
+
+In the case of local install, the script will be available through `~/.local/bin/shellgraph` or similar. Consider adding `.local/bin` to your path.
+
 ## Usage ##
 
 `for i in {1..1000}; do echo $(((RANDOM%10)+1 )); done | shellgraph`
-
-### Installing ###
-
-`pip install shellgraph`
 
 ## License ##
 
