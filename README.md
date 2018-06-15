@@ -2,10 +2,6 @@
 
 A simple tool to graph key distribution from stdin
 
-## Config ## 
-
-Launching the cli once will propagate ~/.tiny-elastic-cli.conf
-
 ## Usage ##
 
 `for i in {1..1000}; do echo $(((RANDOM%10)+1 )); done | shellgraph`
